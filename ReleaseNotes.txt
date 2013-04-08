@@ -1,0 +1,26 @@
+
+Version 2.4.7 [2012/12/27]
+- NEW: Added additional status codes.
+- NEW: Added "priority" column to EventData table ("CustomFieldInfo" optional fields)
+- FIX: Fix Reverse-Geocoding for cell-tower locations when RG 'alwaysFast' is true.
+- FIX: Added proper sort ordering for temperature fields in reports.
+- FIX: Removed "ORDER BY" fields when retrieving only a record "COUNT(*)".
+- DCS: gprmc] If 'mobileID' and 'accountID' are blank, use 'deviceID' as 'mobileID'.
+- DCS: astra] New Astra DCS provided by Astra Telematics.
+
+-----------------------------------------------------------------------------------
+
+Project Home Page:
+    http://www.opengts.org
+
+Download Latest Version from SourceForge:
+    https://sourceforge.net/projects/opengts/
+
+Documentation (installation/configuration, tutorials, FAQ):
+    http://www.opengts.org/FAQ.html
+    http://www.opengts.org/documentation.html
+
+GTS Enterprise:
+    http://www.geotelematic.com/gts.html
+    http://www.geotelematic.com/documentation.html
+
